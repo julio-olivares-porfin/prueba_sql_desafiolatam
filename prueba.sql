@@ -1,6 +1,6 @@
 CREATE DATABASE "prueba-sql-julio-olivares";
 
-\c "prueba-sql-julio-olivares";
+\c "prueba-sql-julio-olivares"
 
 -- Revisa el tipo de relación y crea el modelo correspondiente. Respeta las claves primarias, foráneas y tipos de datos.
 
@@ -131,7 +131,7 @@ GROUP BY u.nombre;
 SELECT p.id, p.pregunta, COUNT(r.usuario_id) AS cantidad_respuestas_correctas
 FROM preguntas p LEFT JOIN respuestas r ON p.id = r.pregunta_id
 AND p.respuesta_correcta=r.respuesta
-GROUP BY p.pregunta, p.id 
+GROUP BY p.pregunta, p.id
 ORDER BY p.id;
 
 --8. Implementa un borrado en cascada de las respuestas al borrar un usuario. Prueba la implementación borrando el primer usuario.
