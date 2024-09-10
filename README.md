@@ -1,3 +1,3 @@
 # Prueba SQL Julio Olivares
 
-- [Ver Video Youtube](https://mammamiapizzas.netlify.app)
+- [Ver Video Youtube](https://youtu.be/t8jZTdPYwBA)
