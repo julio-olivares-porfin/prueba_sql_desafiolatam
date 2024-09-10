@@ -1,4 +1,4 @@
-CREATE DATABASE prueba_sql_alterna;
+CREATE DATABASE "prueba-sql-julio-olivares";
 
 \c "prueba-sql-julio-olivares";
 
