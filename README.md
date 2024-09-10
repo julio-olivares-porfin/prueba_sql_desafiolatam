@@ -1,1 +1,3 @@
-# prueba_sql_desafiolatam
+# Prueba SQL Julio Olivares
+
+- [Ver Video Youtube](https://mammamiapizzas.netlify.app)
